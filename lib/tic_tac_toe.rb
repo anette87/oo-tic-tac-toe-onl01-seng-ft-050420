@@ -121,13 +121,7 @@ class TicTacToe
       puts "Cat's Game!"
     end
     
-    if over? == true 
-  
-    
-    
-  
-  
-  end 
+   end 
 
 
  
