@@ -118,12 +118,12 @@ class TicTacToe
        end
 
       if draw?
-    	 puts "Cat's Game!"
+    	  puts "Cat's Game!"
       elsif winner == "X" 
-    	 puts "Congratulations X!"
+    	  puts "Congratulations X!"
       elsif winner == "O"
-    	puts "Congratulations O!"
-    end
+    	  puts "Congratulations O!"
+      end
   end 
 
 
