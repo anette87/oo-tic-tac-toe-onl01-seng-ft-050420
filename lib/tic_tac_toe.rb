@@ -115,7 +115,6 @@ class TicTacToe
     
     while over? == false
       turn
-      puts over?
     end  
       
 
