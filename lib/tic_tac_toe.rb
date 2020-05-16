@@ -96,7 +96,9 @@ class TicTacToe
   def over?
     if full? == true || won? == true
       return true
-    end
+    else
+      return false
+    end 
   end 
   
   def winner
@@ -111,7 +113,7 @@ class TicTacToe
   
   def play
     
-      while over? == false
+      while over? == false 
         	turn
           if won? == true
             break 
